@@ -1,29 +1,27 @@
-# client
+# MEVN Todo Application
 
-## Project setup
-```
-npm install
-```
+This is a Todo application developed using MongoDB, Express JS, Vue JS and Node JS.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Todos
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ - Creating Todo
+ - Deleting Todo
+ - Updating Todo
+ - Notifications while performing each operation
+  
+Clone the repo and follow the below instructions to run the client and Server separately.
+# Client Installation
 
-### Run your tests
-```
-npm run test
+```sh
+$ npm run client
+$ npm install
+$ npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Server Installation
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+$ npm run server
+$ npm install
+$ nodemon
+```
